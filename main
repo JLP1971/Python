@@ -1,0 +1,15 @@
+productos = {
+    "Coca-Cola": 1800,
+    "Galletitas": 950,
+    "Yerba": 2200
+}
+
+def mostrar_productos():
+    print("🛒 Lista de productos disponibles:")
+    for producto, precio in productos.items():
+        print(f"- {producto}: ${precio}")
+
+if __name__ == "__main__":
+    mostrar_productos()
+
+Add main.py with starter script
